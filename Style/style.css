@@ -33,11 +33,11 @@ body {
 	height: 36px;
 }
 
-#triangle {
+.triangle {
 	display: none;
 	position: absolute;
 	top: 55px;
-	right: 128px;
+	right: 116px;
     width: 0;
     height: 0;
     z-index: 2;
@@ -46,7 +46,7 @@ body {
     border-bottom: 12px solid #d4d4d4;
 }
 
-#empty	{
+.empty	{
 	position: absolute;
 	top: 2px;
 	left: -10px;
@@ -75,7 +75,7 @@ body {
 	cursor: pointer;
 }
 
-.menu-item:hover,
+.menuItem:hover,
 .button:hover {
 	text-decoration: underline;
 	opacity: 0.7;
@@ -85,7 +85,7 @@ body {
 	display: none;
 	position: absolute;
 	width: 280px;
-	height: 356px;
+	height: 362px;
 	top: 66px;
 	border: 1px solid #d4d4d4;
 	border-radius: 2px;
@@ -149,7 +149,7 @@ body {
 	display: block;
 }
 
-.popUp:checked ~ #triangle {
+.popUp:checked ~ .triangle {
 	display: block;
 }
 
@@ -187,6 +187,3 @@ body {
 .MoreApps:checked ~ .hiddenBlock {
 	display: flex;
 }
-
-
-
