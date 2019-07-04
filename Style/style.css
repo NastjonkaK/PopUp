@@ -16,7 +16,7 @@ body {
 	align-items: center;
 }
 
-.menu-item {
+.menuItem {
 	display: flex;
 	list-style-type: none;
 	margin-left: 20px;
@@ -28,7 +28,7 @@ body {
 	height: 24px;
 }
 
-#ava {
+.ava {
 	width: 36px;
 	height: 36px;
 }
@@ -71,7 +71,7 @@ body {
  	cursor: pointer;
 }
 
-.menu li:hover {
+.menu:hover {
 	cursor: pointer;
 }
 

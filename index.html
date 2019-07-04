@@ -3,61 +3,62 @@
 <head>
 	<title>PopUp menu</title>
 	<link rel="stylesheet" href="Style/style.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 	<nav>
-		<ul class="menu">
-			<li class="menu-item"> Mail </li>
-			<li class="menu-item"> Photos </li>
+		<div class="menu">
+			<div class="menuItem"> Mail </div>
+			<div class="menuItem"> Photos </div>
 			<input type="checkbox" id="ButtonPopUp" class="popUp">
             <label for="ButtonPopUp" class="button"></label>
             <div class="iconsContainer">
             	<ul class="popupIcons">
             		<li class="popupIconsItem">
 	            		<a href="#">
-	            			<img src="Icons/docs.png">
+	            			<img src="Icons/docs.png" alt="Docs">
 	            			<div class="captions"> Docs </div>
 	            		</a>
             		</li>
             		<li class="popupIconsItem">
 	            		<a href="#">
-	            			<img src="Icons/calendar.png">
+	            			<img src="Icons/calendar.png"  alt="Calendar">
 	            			<div class="captions"> Calendar </div>
 	            		</a>
             		</li>
             		<li class="popupIconsItem">
 	            		<a href="#">
-	            			<img src="Icons/cloud.png">
+	            			<img src="Icons/cloud.png" alt="Cloud">
 	            			<div class="captions"> Cloud </div>
 	            		</a>
             		</li>
             		<li class="popupIconsItem">
 	            		<a href="#">
-	            			<img src="Icons/store.png">
+	            			<img src="Icons/store.png" alt="Store">
 	            			<div class="captions"> Store </div>
 	            		</a>
             		</li>
             		<li class="popupIconsItem">
 	            		<a href="#">
-	            			<img src="Icons/translate.png">
+	            			<img src="Icons/translate.png" alt="Translate">
 	            			<div class="captions"> Translate </div>
 	            		</a>
             		</li>
             		<li class="popupIconsItem">
 	            		<a href="#">
-	            			<img src="Icons/music.png">
+	            			<img src="Icons/music.png" alt="Music">
 	            			<div class="captions"> Music </div>
 	            		</a>
             		</li>
             		<li class="popupIconsItem">
 	            		<a href="#">
-	            			<img src="Icons/movie.png">
+	            			<img src="Icons/movie.png" alt="Movie">
 	            			<div class="captions"> Movie </div>
 	            		</a>
             		</li>
             		<li class="popupIconsItem">
 	            		<a href="#">
-	            			<img src="Icons/alarm.png">
+	            			<img src="Icons/alarm.png" alt="Alarm">
 	            			<div class="captions"> Alarm </div>
 	            		</a>
             		</li>
@@ -69,48 +70,48 @@
             	<ul class="hiddenBlock">
             		<li class="popupIconsItem hidden">
 	            		<a href="#">
-	            			<img src="Icons/book.png">
+	            			<img src="Icons/book.png" alt="Books">
 	            			<div class="captions"> Books </div>
 	            		</a>
             		</li>
             		<li class="popupIconsItem hidden">
 	            		<a href="#">
-	            			<img src="Icons/notes.png">
+	            			<img src="Icons/notes.png" alt="Notes">
 	            			<div class="captions"> Notes </div>
 	            		</a>
             		</li>
             		<li class="popupIconsItem hidden">
 	            		<a href="#">
-	            			<img src="Icons/photo.png">
+	            			<img src="Icons/photo.png" alt="Photo">
 	            			<div class="captions"> Photo </div>
 	            		</a>
             		</li>
            		<li class="popupIconsItem hidden">
 	            		<a href="#">
-	            			<img src="Icons/timer.png">
+	            			<img src="Icons/timer.png" alt="Timer">
 	            			<div class="captions"> Timer </div>
 	            		</a>
             		</li>
             		<li class="popupIconsItem hidden">
 	            		<a href="#">
-	            			<img src="Icons/mail.png">
+	            			<img src="Icons/mail.png" alt="Mail">
 	            			<div class="captions"> Mail </div>
 	            		</a>
             		</li>
             		<li class="popupIconsItem hidden">
 	            		<a href="#">
-	            			<img src="Icons/chat.png">
+	            			<img src="Icons/chat.png" alt="Chat">
 	            			<div class="captions"> Chat </div>
 	            		</a>
             		</li>
             	</ul>
             </div>
-			<li class="menu-item"> <img src="Icons/bell.png"></li>
-			<li class="menu-item"> <img id="ava" src="Icons/avatar.png"></li>
+			<div class="menuItem"> <img src="Icons/bell.png" alt="Notifications"></div>
+			<div class="menuItem"> <img class="ava" src="Icons/avatar.png" alt="Avatar"></div>
 			<div id="triangle">
 				<div id="empty"></div>
 			</div>
-		</ul>
+		</div>
 	</nav>
 </body>
 </html>
